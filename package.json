@@ -1,0 +1,36 @@
+{
+  "name": "learn-plasma-rss",
+  "version": "0.1.0",
+  "description": "RSS feed for Plasma resources",
+  "main": "rssparser.js",
+  "dependencies": {
+    "combine-rss": "0.0.3",
+    "express": "^4.16.3",
+    "feedparser": "^2.2.9",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "rss-combiner": "0.0.5",
+    "rss-parser": "^3.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node rssparser.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulRBerg/learn-plasma-rss.git"
+  },
+  "keywords": [
+    "plasma",
+    "rss"
+    "ethereum",
+    "ethereum-blockchain"
+  ],
+  "author": "Paul Berg (https://paulrberg.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "git+https://github.com/PaulRBerg/learn-plasma-rss/issues"
+  },
+  "url": "git+https://github.com/PaulRBerg/learn-plasma-rss#readme"
+}

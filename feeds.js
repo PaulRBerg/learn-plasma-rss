@@ -1,9 +1,11 @@
+const unified = "https://feed.rssunify.com/5b97818863c8d/rss.xml";
+
 module.exports = {
+	etheresearch: [
+		"https://ethresear.ch/c/plasma.rss"
+	],
 	karldottech: [
 		"https://karl.tech/tag/plasma/rss/"
-	],
-	etheresearch: [
-		"https://ethresear.ch/t/plasma.rss"
 	],
 	medium: [
 		"https://medium.com/feed/tag/plasma",
